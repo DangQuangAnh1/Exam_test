@@ -1,0 +1,339 @@
+:root {
+    font-family: Times New Roman, serif;
+    background-color: whitesmoke;
+    --text-color: #111111;
+    --text1-color: #222222;
+    --text2-color: #6d6d6d;
+    --main-color: #008c99;
+    /* --main-color: #7D2AFA; */
+    --doimau-color: linear-gradient(
+        to top,
+        rgba(3, 17, 53, 0.8),
+        rgba(13, 84, 214, 0.85)
+      ) ;
+    --button-color: linear-gradient(
+        to top,
+        rgba(3, 34, 32, 0.8),
+        rgba(5, 126, 85, 0.85)
+      ) ;
+    --delete-color: linear-gradient(
+        to top,
+        rgba(240, 4, 4, 0.8),
+        rgba(94, 9, 9, 0.85)
+      ) ;
+}
+.box-1{
+    background: linear-gradient(
+        to top,
+        rgba(3, 17, 53, 0.8),
+        rgba(13, 84, 214, 0.85)
+      ) ;
+    text-align: left;
+    width: 20%;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+.box-2{
+    background-color: var(--text2-color);
+    text-align: left;
+    width: 80%;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    box-sizing: border-box;
+}
+.top-box-1{
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.admin{
+    margin: auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px 0px;
+}
+.main-box-1{
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+}
+.main-box-item{
+    margin: auto;
+    padding: 15px 10px;
+}
+.main-box-item i{
+    padding-right: 5px;
+}
+.top-box-2{
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end;
+}
+.user-name-header {
+    margin: auto;
+    color: var(--text2-color);
+    font-size: small;
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.user-avt-header {
+    margin: auto;
+    font-size: small;
+    position: relative;
+    z-index: 1;
+    flex: 1;
+}
+.user-avt-header:hover .avt-list{
+    display: block;
+}
+.avt-list{
+    padding: 10px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    color: var(--text1-color);
+    display: none;
+    z-index: 10;
+    position: absolute;
+}
+img{
+    border-radius: 50%;
+}
+.user-avt-header a{
+    text-decoration: none;
+    color: var(--tex1-color);
+}
+.kt{
+    flex: 7;
+    color: var(--main-color);
+    text-align: center;
+    font-size: 15px;
+}
+.unh1{
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+}
+.main-box-2{
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    right: 10px;
+}
+.title-box-2{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    right: 10px;
+    color: var(--text2-color);
+    font-size: 25px;
+    padding-left: 20px;
+}
+.main-box-2{
+    display: flex;
+}
+.count-box{
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    padding: 50px 0px;
+}
+.count-form{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: #F0ECE3;
+    border-radius: 10px;
+    border-left: 5px solid var(--main-color);
+    display: flex;
+}
+.count-form-1{
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    text-align: left;
+}
+.count-form-2{
+    width: 20%;
+    height: 60%;
+    margin: auto;
+}
+.count-form-2 i{
+    margin-top: 10px;
+    color: #fff;
+}
+.cf1{
+    font-size: 25px;
+    color: var(--text2-color);
+    font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even){background-color: #f2f2f2}
+  
+th{
+    background: var(--doimau-color);
+    color: white;
+}
+td{
+    background-color: #fff;
+    color: var(--text1-color);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    max-height: 5px;
+}
+.main-box-2-item{
+    padding: 20px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.v1{
+    flex: 45;
+}
+.trang{
+    flex: 0.5;
+    border: none;
+    background-color: #fff;
+}
+.v2{
+    flex: 50;
+}
+.v3{
+    flex: 60;
+}
+.delete{
+    background: var(--delete-color);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.button{
+    background: var(--button-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: auto; 
+    width: 100%;
+    margin-top: 50px;
+}
+.form_group{  
+    padding: 10px;     
+    display: flex;
+    justify-content: space-between;
+}    
+.intext{    
+    width: 25%;
+    padding: 12px 0px;
+}
+input[type="text"]{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 12px;
+    width: 80%;
+}
+input[type="date"]{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 12px;
+    width: 80%;
+}
+.select-form{
+    width: 92%;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+}
+.select-1{
+    margin: auto;
+    padding: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    border-radius: 5px;
+}
+.select-item{
+    color: var(--text1-color);
+    padding: 10px 20px;
+    margin: 20px 0px 10px 0px;
+    border: none;
+    width: 30%;
+    border-radius: 5px;
+}
+.search-bt {
+    padding: 10px;
+    margin: auto;
+    font-size: 17px;
+    border: none;
+    background-color: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+    background: linear-gradient(
+        to top,
+        rgba(24, 82, 228, 0.8),
+        rgba(233, 9, 9, 0.85)
+      ) ;
+}
+option{
+    padding: 5px;
+}
+.nhapmade{
+    width: 40vw;
+    position: relative;
+    background-color:var(--text2-color);
+    margin: auto;
+    margin-top: 20vh;
+    z-index: 2;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    display: none;
+}
+#showformmade{
+    padding: 5px 10px;
+    color:#fff;
+    background:var(--button-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    right: 1vw;
+}
+#anformmade{
+    padding: 5px 10px;
+    color:#fff;
+    background:var(--delete-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-left: 93%;
+}
+#showformmade :hover{
+    opacity: 0.5;
+}
+#page{
+    text-align: center;
+    padding: 20px 0px;
+}
